@@ -6,18 +6,18 @@ import {
 } from "react-router-dom";
 import Auth from "./pages/Auth";
 import ErrorPage from "./pages/ErrorPage";
-import Home from "./pages/Home";
-import { ProtectedLayout } from "./ProtectedRoute";
-import { AuthProvider } from "./AuthProvider";
-import { AuthLayout } from "./AuthLayout";
+import ImageGenerator from "./pages/ImageGenerator";
+import { ProtectedLayout } from "./hooks/ProtectedRoute";
+
+import { AuthLayout } from "./hooks/AuthLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<AuthLayout />}>
       <Route path="/" element={<Auth />} />
       <Route path="home" element={<ProtectedLayout />}>
+        <Route index element={<ImageGenerator />} />
         <Route path="profile" element={<h1>Profile</h1>} />
-        <Route path="settings" element={<h1>Settings</h1>} />
       </Route>
     </Route>
   )

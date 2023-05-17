@@ -1,10 +1,10 @@
-import React from "react";
 import { styled } from "styled-components";
 import ApiKeyForm from "../components/ApiKeyForm";
 
-const ContainerApp = styled.div`
+export const ContainerApp = styled.div`
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
