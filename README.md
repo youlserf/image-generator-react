@@ -33,5 +33,13 @@ The React client will start running on `http://localhost:3000`.
 ## Usage
 Once the React client is running, you can access it through your web browser at `http://localhost:3000`. The client provides a user interface for generating and editing images using the Image Generation and Editing API.
 
-## Additional Information
-For more information on how to use the React client, refer to the docume
+## Demo
+### Enter your API key
+![Enter your API key](https://raw.githubusercontent.com/youlserf/image-generator-react/8870775dbb35e2f4e2b2b7b5b487b6d7c66d3c49/public/enter_key.png) 
+### Describe your image
+![Describe your image](https://raw.githubusercontent.com/youlserf/image-generator-react/8870775dbb35e2f4e2b2b7b5b487b6d7c66d3c49/public/describe.png) 
+### Generate your image
+![Describe your image](https://raw.githubusercontent.com/youlserf/image-generator-react/8870775dbb35e2f4e2b2b7b5b487b6d7c66d3c49/public/generate.png) 
+### Edit your image
+![Describe your image](https://raw.githubusercontent.com/youlserf/image-generator-react/8870775dbb35e2f4e2b2b7b5b487b6d7c66d3c49/public/edit.png) 
+
